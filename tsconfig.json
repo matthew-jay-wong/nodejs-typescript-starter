@@ -10,18 +10,10 @@
 		"outDir": "dist",
 		"baseUrl": ".",
 		"paths": {
-			"@src/*": [
-				"src/*"
-			],
-			"@utils/*": [
-				"src/utils/*"
-			],
-			"@public/*": [
-				"src/public/*"
-			]
+			"@src/*": ["src/*"],
+			"@utils/*": ["src/utils/*"],
+			"@public/*": ["src/public/*"]
 		}
 	},
-	"include": [
-		"src/**/*"
-	]
+	"include": ["src/**/*"]
 }
